@@ -17,3 +17,9 @@ At run-time, root access is required in standard configurations, to be able to d
 ## Licence
 
 This crate is published under the [UNLICENSE](LICENSE), just as the underlying library.
+
+## Disclaimer
+
+This crate or its author is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Nvidia, or its subsidiaries, or its affiliates. The official Jetson Nano page can be found at https://developer.nvidia.com/embedded/jetson-nano-developer-kit.
+
+The names Nvidia and Jetson Nano, as well as related names, marks, emblems, and images belong to their respective owners.
