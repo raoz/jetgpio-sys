@@ -9,8 +9,10 @@ links = "jetgpio"
 description = "Low-level Rust bindings for https://github.com/Rubberazer/JETGPIO"
 license = "UNLICENSE"
 repository = "https://github.com/raoz/jetgpio-sys"
+exclude = ["vendor/docs", "vendor/EXAMPLES_C", "vendor/EXAMPLES_C++"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
 
 [dependencies]
 
