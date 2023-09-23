@@ -1,8 +1,14 @@
 [package]
 name = "jetgpio-sys"
+authors = ["Rao Zvorovski"]
+keywords = ["jetgpio", "gpio", "jetson", "nvidia"]
+categories = ["external-ffi-bindings", "hardware-support"]
 version = "0.1.0"
 edition = "2021"
 links = "jetgpio"
+description = "Low-level Rust bindings for https://github.com/Rubberazer/JETGPIO"
+license = "UNLICENSE"
+repository = "https://github.com/raoz/jetgpio-sys"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
