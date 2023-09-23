@@ -7,7 +7,7 @@ version = "0.1.0"
 edition = "2021"
 links = "jetgpio"
 description = "Low-level Rust bindings for https://github.com/Rubberazer/JETGPIO"
-license = "UNLICENSE"
+license = "Unlicense"
 repository = "https://github.com/raoz/jetgpio-sys"
 exclude = ["vendor/docs", "vendor/EXAMPLES_C", "vendor/EXAMPLES_C++"]
 
