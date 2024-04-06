@@ -19,6 +19,7 @@ fn main() {
 
     cc::Build::new()
         .file(libdir_path.join("nano.c"))
+        .file(libdir_path.join("orin.c"))
         .compile("jetgpio");
 
     // The bindgen::Builder is the main entry point
