@@ -3,7 +3,7 @@ name = "jetgpio-sys"
 authors = ["Rao Zvorovski"]
 keywords = ["jetgpio", "gpio", "jetson", "nvidia"]
 categories = ["external-ffi-bindings", "hardware-support"]
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 links = "jetgpio"
 description = "Low-level Rust bindings for https://github.com/Rubberazer/JETGPIO"
@@ -13,6 +13,8 @@ exclude = ["vendor/docs", "vendor/EXAMPLES_C", "vendor/EXAMPLES_C++"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+orin = []
 
 [dependencies]
 

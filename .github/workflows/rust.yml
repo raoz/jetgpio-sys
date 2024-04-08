@@ -18,5 +18,7 @@ jobs:
     - uses: actions/checkout@v3
       with:
          submodules: recursive
-    - name: Build
+    - name: Build Nano
       run: cargo build --verbose
+    - name: Build Orin
+      run: cargo build --verbose --features orin
