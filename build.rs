@@ -17,9 +17,15 @@ fn main() {
     println!("cargo:rustc-link-lib=jetgpio");
     println!("cargo:rerun-if-changed={}", headers_path_str);
 
-    cc::Build::new()
-        .file(libdir_path.join("nano.c"))
-        .compile("jetgpio");
+    if cfg!(feature = "orin") {
+        cc::Build::new()
+            .file(libdir_path.join("orin.c"))
+            .compile("jetgpio");
+    } else {
+        cc::Build::new()
+            .file(libdir_path.join("nano.c"))
+            .compile("jetgpio");
+    }
 
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
