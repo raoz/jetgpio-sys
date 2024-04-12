@@ -8,4 +8,4 @@
 
 ### Changed
 
-- Upgrade base dependency to commit 6a2fc20
+- Upgrade base dependency to commit a0e384e
