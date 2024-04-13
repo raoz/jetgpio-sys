@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.2.1](https://github.com/raoz/jetgpio-sys/compare/v0.2.0...v0.2.1) - 2024-04-13
+
+### Fixed
+- fix license identifier in Cargo.toml
+
+### Other
+- Create release-plz.yml ([#5](https://github.com/raoz/jetgpio-sys/pull/5))
+- upgrade JETGPIO version ([#4](https://github.com/raoz/jetgpio-sys/pull/4))
+- Update rust.yml
+- Create rust.yml
+- add disclaimer to README
+- do not include vendor docs or examples in package
+- add more information to Cargo.toml
+- add initial jetgpio wrapper
+
 ## [0.2.0] - 2024-04-08
 
 ### Added
