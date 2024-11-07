@@ -6,6 +6,8 @@ By default, the `orin` feature is disabled and Jetson Nano™ implementation is 
 
 Clang is required in the compilation process.
 
+Version 0.2.2 corresponds to JETGPIO v1.2, which is the last version of JETGPIO that does not require a kernel module.
+
 ## Limitations
 
 At run-time, root access is required in standard configurations, to be able to directly access the memory that controls the GPIO. Only Linux is supported by this crate.
