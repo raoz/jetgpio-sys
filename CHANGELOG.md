@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/raoz/jetgpio-sys/compare/v0.2.2...v0.2.3) - 2024-11-12
+
+### Other
+
+- update README ([#16](https://github.com/raoz/jetgpio-sys/pull/16))
+- add an usage example ([#14](https://github.com/raoz/jetgpio-sys/pull/14))
+
 ## [0.2.2](https://github.com/raoz/jetgpio-sys/compare/v0.2.1...v0.2.2) - 2024-11-07
 
 ### Added
