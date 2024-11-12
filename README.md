@@ -8,6 +8,12 @@ Clang is required in the compilation process.
 
 Version 0.2.2 corresponds to JETGPIO v1.2, which is the last version of JETGPIO that does not require a kernel module.
 
+## Usage
+
+A basic usage example is available [in the examples folder](examples/blink.rs).
+
+For more examples, see [the C examples of the underlying library](https://github.com/Rubberazer/JETGPIO/tree/main/EXAMPLES_C).
+
 ## Limitations
 
 At run-time, root access is required in standard configurations, to be able to directly access the memory that controls the GPIO. Only Linux is supported by this crate.
