@@ -8,6 +8,8 @@ Clang is required in the compilation process.
 
 Version 0.2.2 corresponds to JETGPIO v1.2, which is the last version of JETGPIO that does not require a kernel module.
 
+For a higher-level crate, consider [the jetgpio crate by  Braden Everson](https://github.com/BradenEverson/jetgpio), which is built on top of this crate.
+
 ## Usage
 
 A basic usage example is available [in the examples folder](examples/blink.rs).
