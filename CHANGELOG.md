@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.4](https://github.com/raoz/jetgpio-sys/compare/v0.2.3...v0.2.4) - 2025-11-24
+
+### Other
+
+- Add reference to jetgpio crate in README ([#17](https://github.com/raoz/jetgpio-sys/pull/17))
+
 ## [0.2.3](https://github.com/raoz/jetgpio-sys/compare/v0.2.2...v0.2.3) - 2024-11-12
 
 ### Other
